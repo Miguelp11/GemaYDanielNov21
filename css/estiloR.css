@@ -1,0 +1,92 @@
+
+@font-face {
+    font-family: kgs;
+    src: url(../fuente/KGStrawberryLimeade.ttf);
+    }
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FBFBF9;
+}
+.animado{
+    width: 100%;
+    height: 100%;
+}
+.mapita{
+    display: flex;
+    justify-content: center;
+}
+.mapa-negro{
+    width: 50px;
+    cursor: pointer;
+}
+.caja{
+    width: 100px;
+    font-family: kgs;
+    text-align: center;
+    padding-top: 10px;
+}
+.caja p{
+    line-height: 10px;
+}
+.caja a{
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+}
+/* Responsivo */
+@media screen and (min-width:360px) {
+    .mapa-negro{
+        width: 80px;
+    }
+    .caja{
+        width: 120px;
+        margin-top: 10px;
+    }
+    .caja a{
+        font-size: 15px;
+    }
+    .caja p{
+        line-height: 12px;
+    }
+}
+@media screen and (min-width:480px){
+    .mapa-negro{
+        width: 100px;
+    }
+    .caja a{
+        font-size: 17px;
+    }
+    .caja p{
+        line-height: 15px;
+    }
+}
+@media screen and (min-width:768px){
+    .mapa-negro{
+        width: 130px;
+    }
+    .caja{
+        width: 180px;
+        margin-top: 25px;
+    }
+    .caja a{
+        font-size: 22px;
+    }
+}
+@media screen and (min-width:1024px){
+    .mapa-negro{
+        width: 180px;
+    }
+    .caja{
+        width: 250px;
+    }
+    .caja a{
+        font-size: 30px;
+    }
+    .caja p{
+        line-height: 24px;
+    }
+}
