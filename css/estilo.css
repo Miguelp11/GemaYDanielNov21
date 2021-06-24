@@ -11,7 +11,7 @@ body{
     background-color: #484E4D;
 }
 /* pantalla de carga */
-.contenedor{
+/* .contenedor{
     position: fixed;
     width: 100vw;
     height: 100vh;
@@ -22,7 +22,7 @@ body{
 .contenedor__carga{
     width: 100vw;
     height: 100vh;
-}
+} */
 
 .animado{
     width: 100%;
